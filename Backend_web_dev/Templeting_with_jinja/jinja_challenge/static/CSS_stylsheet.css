@@ -1,0 +1,20 @@
+#age{
+    color: #7D8ABC;
+    text-align: center;
+    }
+
+#gender{
+    color: #304463;
+    text-align: center;
+    }
+
+body{
+    background-color: pink;
+    }
+
+#gif{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
