@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>blog</title>
+</head>
+<body>
+    {%for blog_post in post: %}
+        <h1>{{blog_post["title"]}}</h1>
+        <h2>ID: {{blog_post["id"]}}</h2>
+        <p>{{blog_post["body"]}}</p>
+    {% endfor %}
+<a href="{{'blog'}}">go to home</a>
+</body>
+</html>
