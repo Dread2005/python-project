@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bootstrap layout</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <p class="col-4">
+            perfect spacing
+        </p>
+        <p class="col-4">
+            perfect spacing
+        </p>
+        <p class="col-4">
+            perfect spacing
+        </p>
+    </div>
+</div>
+</body>
+</html>
+
+<!--layout:
+create a div with class container---
+<div class="container">
+then create a div with class row---
+    <div class="row">
+then create a div with a class column---
+        <div class="col"> hello </div>
+
+<div class="container">
+    <div class="row">
+        <div class="col"> hello </div>
+    </div>
+</div>
+
+when you have multiple columns Bootstrap will automatically space out the columns(items)
+each row has 12 columns
+you can change column(item) sizes using col-1 up to col-12
+
+Bootstrap breakpoints:
+col-sm-<insert number between 1 and 12> small(narow small screens)
+col-md- medium(phone screens)
+col-lg- large(laptop screens)
+col-xl- extra large(desktop screens)
+col-xxl- extra extra large(tv screens)
+
+multiple breakpoints:
+<div class="col-sm-12 col-md-8 col-lg-6">
+on a small screen it will take up 12 spaces
+on medium screens it will take uo 8 spaces
+on large screens it will take up 6 spaces

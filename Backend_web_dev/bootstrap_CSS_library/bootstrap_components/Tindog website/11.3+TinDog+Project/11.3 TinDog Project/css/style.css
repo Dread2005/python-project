@@ -1,0 +1,57 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 160% 160%;
+  animation: gradient-animation 18s ease infinite;
+  box-sizing: border-box;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.row{
+display: flex;
+flex-wrap: wrap;
+}
+
+.py-5 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+.flex-container{
+display: flex;
+flex-wrap: nowrap
+justify-content: center;
+align-items: center;
+}
+
+#appl_btn{
+background-color: white;
+border-color: white;
+color: black;
+}
+
+#play_btn{
+color: white;
+border-color: white;
+}
